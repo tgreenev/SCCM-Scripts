@@ -1,7 +1,7 @@
-﻿Start-Transcript C:\EGRTools\sccm-col.txt
+﻿Start-Transcript C:\Logs\sccm-col.txt
 # Site configuration
-$SiteCode = "RAM" # Site code 
-$ProviderMachineName = "SCCMSITE.RAMS.ADP.VCU.EDU" # SMS Provider machine name
+$SiteCode = "SCCM" # Site code 
+$ProviderMachineName = "SCCMSITE.COMPANY.COM" # SMS Provider machine name
 
 # Customizations
 $initParams = @{ }
